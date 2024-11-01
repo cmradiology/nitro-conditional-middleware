@@ -1,7 +1,7 @@
 {
-  "name": "@frontend/nitro-conditional-middleware",
+  "name": "nitro-conditional-middleware",
   "version": "0.1.0",
-  "description": "Define Middlewares TODO",
+  "description": "Tooling to create conditional middlewares for nitro",
   "exports": "./dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -15,8 +15,8 @@
   "scripts": {
     "build": "rm -fr dist/* && tsc",
     "test": "vitest run",
-    "lint": "eslint --ext \".ts,.js,.vue\" --ignore-path .gitignore .",
-    "lint:fix": "npx prettier --write '**/*.{js,ts,md,json}' && eslint --fix --ext \".ts,.js,.vue\" --ignore-path .gitignore ."
+    "lint": "eslint --ext \".ts,.js\" --ignore-path .gitignore .",
+    "lint:fix": "npx prettier --write '**/*.{js,ts,md,json}' && eslint --fix --ext \".ts,.js\" --ignore-path .gitignore ."
   },
   "author": "Collective Minds Radiology",
   "license": "MIT",
