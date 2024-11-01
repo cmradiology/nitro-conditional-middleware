@@ -93,9 +93,7 @@ export default apiV1MiddlewareHandler(myFirstMiddleware)
 // usage 2.my-second-middleware.ts
 import { apiV2MiddlewareHandler } from './defineApiMiddleware'
 
-const mySecondMiddleware = (event) => {
+export default apiV2MiddlewareHandler((event) => {
   console.log('mySecondMiddleware: This will only run in api/v2 endpoints')
-}
-
-export default apiV2MiddlewareHandler(mySecondMiddleware)
+})
 ```
