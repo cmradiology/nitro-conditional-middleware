@@ -33,9 +33,6 @@
   "peerDependencies": {
     "h3": "^1.13"
   },
-  "publishConfig": {
-    "@frontend:registry": "https://gitlab.com/api/v4/projects/50729119/packages/npm/"
-  },
   "engines": {
     "node": ">=16"
   }
