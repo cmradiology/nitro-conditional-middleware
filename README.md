@@ -91,8 +91,6 @@ export default apiV1MiddlewareHandler(myFirstMiddleware)
 
 ```ts
 // usage 2.my-second-middleware.ts
-import { NitroUtil } from '@frontend/utils'
-
 import { apiV2MiddlewareHandler } from './defineApiMiddleware'
 
 const mySecondMiddleware = (event) => {
