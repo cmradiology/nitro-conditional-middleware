@@ -7,7 +7,7 @@ type AsyncMiddleware = (event: H3Event) => Promise<void>
  * Returns a function that returns an h3 event handler `defineEventHandler`
  * that will run a `Middleware` based on the `conditionFn`.
  *
- * @param { (event:H3Event) => boolean } conditionFn - The condition function. The middleware will only 
+ * @param { (event:H3Event) => boolean } conditionFn - The condition function. The middleware will only
  * execute if the condition function returns true.
  * @returns { (middleware: Middleware) => EventHandler } - function that returns an event handler
  */
@@ -22,7 +22,7 @@ function createMiddlewareHandler(conditionFn: (event: H3Event) => boolean = (_ev
  * Given a middleware, it will only execute if the condition function returns true.
  *
  * @param { Middleware } middleware - original Middleware to be executed
- * @param { (event: H3Event) => boolean } conditionFn - the condition function that for the middleware 
+ * @param { (event: H3Event) => boolean } conditionFn - the condition function that for the middleware
  * to be executed. It depends on the event object.
  * @returns { Middleware } - A wrapped version of the original Middleware
  */
