@@ -1,7 +1,7 @@
 {
   "name": "nitro-conditional-middleware",
-  "version": "0.1.0",
-  "description": "Tooling to create conditional middlewares for nitro",
+  "version": "0.1.2",
+  "description": "Tools for creating conditional middlewares for nitro",
   "exports": "./dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -12,6 +12,22 @@
     "README.md",
     "LICENSE"
   ],
+  "keywords": [
+    "h3",
+    "nitro",
+    "nitrojs",
+    "skip",
+    "conditional",
+    "middleware",
+    "middlewares",
+    "skip middleware",
+    "conditional middleware"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmradiology/nitro-conditional-middleware.git"
+  },
+  "homepage": "https://github.com/cmradiology/nitro-conditional-middleware/",
   "scripts": {
     "build": "rm -fr dist/* && tsc",
     "test": "vitest run",
