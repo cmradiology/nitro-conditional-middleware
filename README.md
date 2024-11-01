@@ -61,7 +61,7 @@ type condition = (event: H3Event) => boolean
 const defineMiddlewareHandler = createMiddlewareHandler(condition)
 ```
 
-### Creating and using multiple `middlewareHandler`s handlers
+### Creating and using multiple `middlewareHandler`s
 
 ```ts
 // defineApiMiddleware.ts
